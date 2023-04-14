@@ -17,8 +17,8 @@ from template_mail import SimpleTemplate
 print(
         SimpleTemplate.message(
             site_url="http://www.example.com",
-            logo_url="http://www.example.com/logo.png",
-            company_name="Example",
+            logo_url="https://t.ctcdn.com.br/essK16aBUDd_65hp5umT3aMn_i8=/400x400/smart/filters:format(webp)/i606944.png",
+            company_name="Google",
             title="Title",
             message="Sample message",
         )
