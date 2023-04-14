@@ -1,4 +1,8 @@
+import os
 from jinja2 import Environment, FileSystemLoader
+
+# Get the current script's directory
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
 
 class SimpleTemplate:
@@ -7,7 +11,7 @@ class SimpleTemplate:
     Templates inspirados nos emails do google
     """
 
-    _env = Environment(loader=FileSystemLoader("templates/"))
+    _env = Environment(loader=FileSystemLoader(os.path.join(current_dir, "templates")))
 
     @staticmethod
     def message(**kwargs):
