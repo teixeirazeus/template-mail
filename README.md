@@ -12,6 +12,17 @@ pip install git+https://github.com/teixeirazeus/template-mail
 ## Usage
 
 ```python
+from template_mail import SimpleTemplate
+
+print(
+        SimpleTemplate.message(
+            site_url="http://www.example.com",
+            logo_url="http://www.example.com/logo.png",
+            company_name="Example",
+            title="Title",
+            message="Sample message",
+        )
+    )
 ```
 
 ## Developer

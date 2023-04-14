@@ -50,7 +50,7 @@ if __name__ == "__main__":
             site_url="http://www.example.com",
             logo_url="http://www.example.com/logo.png",
             company_name="Example",
-            title="Hello World",
-            message="Banana",
+            title="Title",
+            message="Sample message",
         )
     )
