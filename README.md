@@ -25,6 +25,8 @@ print(
     )
 ```
 
+![Result](https://github.com/teixeirazeus/template-mail/blob/main/readme_assets/mail.png?raw=true)
+
 ## Developer
 
 *   Thiago da Silva Teixeira
