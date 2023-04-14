@@ -11,6 +11,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="template_mail",
+    include_package_data=True,
     version=version,
     packages=find_packages(),
     url="https://github.com/teixeirazeus/template-mail",
